@@ -1,0 +1,229 @@
+.nav-item a{
+    color: rgb(6, 20, 56);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.nav-item a:hover{
+    background-color: rgb(6, 20, 56);
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.growth-img{
+    width: 40%;
+    margin: 20px auto auto auto;
+}
+
+
+.mid-content{
+  width: 50%;
+  margin: auto;
+}
+
+.mid-content h1{
+    text-align: center;
+    color: rgb(6, 20, 56);
+}
+
+.mid-content p{
+    text-align: center;
+    color: rgb(113, 114, 115);
+}
+
+.our-team{
+  background-color: rgb(61, 149, 217);
+  color: #ffff;
+}
+
+.our-team h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+.our-team div div img{
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50%);
+    object-fit: cover;
+}
+
+.team-img{
+    width: 50%;
+    margin: auto;
+}
+
+
+.team-img div h3{
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 0px 0px 0px;
+}
+
+.team-img div div i{
+    font-size: 20px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px auto auto auto;
+    
+
+}
+
+.services div i{  
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(61, 149, 217);
+}
+
+.services div h3{
+    text-align: center;
+    color: rgb(61, 149, 217);
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+.services div p{
+    text-align: center;
+    color: rgb(95, 97, 98);
+    margin-top: 10px;
+}
+
+.services-main{
+    margin-top: 40px;
+}
+
+.services-main h2{
+    text-align: center;
+    color: rgb(6, 20, 56);
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-weight: 500;
+  font-style: normal;
+    
+}
+
+.getInTouch{
+    width: 55%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.getInTouch div i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.getInTouch div h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.getInTouch div p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.googleMap{
+    display: flex;
+    width: 60%;
+    margin: 40px auto auto auto;
+   height: 450px;
+   padding-bottom: 50px;
+}
+
+
+footer{
+    background-color: rgb(8 71 105);
+    color: #ffff;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 10%;
+    margin: 30px auto auto auto;
+}
+
+footer div i{
+    font-size: 23px;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+@media(max-width:760px){
+   
+    
+    footer div i{
+       
+         padding-left: 10px;
+    
+    }
+
+
+    .navbar{
+        width: 100% !important;
+        background-color: transparent !important;
+    }
+
+    .toggle-btn{
+        justify-content: end !important;
+    }
+
+    .nav-link{
+        margin-left: 0px !important;
+        
+    }
+
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+
+    .growth-img{
+        width: 80%;
+        margin: 20px auto auto auto;
+    }
+
+   .growth-img img{
+    width: 100% !important;
+   }
+   
+   .mid-content p{
+    margin-bottom: 20px;
+   }
+
+   .mid-content{
+    width: 80%;
+   }
+
+   .services{
+    flex-wrap: wrap;
+   }
+}
+
+
+@media(max-width:249px){
+    
+
+    .our-team div div img{
+        width: 150px;
+        height: 150px;
+    }
+}

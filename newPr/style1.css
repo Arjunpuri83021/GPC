@@ -1,0 +1,152 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    width: 80%;
+    margin: 20px auto;
+    background-color: antiquewhite;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    transition: 1s;
+}
+
+nav ul li:hover{
+    background-color: rgb(95, 88, 88);
+    border-radius: 10px;
+    color: #ffff;
+}
+
+.shop-img{
+  display: flex;
+  justify-content: center;
+}
+
+.shop-img img{
+    width: 72%;
+    height: 550px;
+    border: solid 2px rgb(140, 136, 136);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+
+.carts{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carts div{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.carts div img{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+.carts div h5{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.carts div p{
+    margin: 5px 0px;
+    
+}
+
+
+.carts div button{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    float: inline-end;
+    transition: 1s;
+}
+
+.carts div button:hover{
+    background-color: #000000;
+    
+}
+
+footer{
+    color: #ffff;
+    background-color: #000000;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.footer-btn{
+    display: flex;
+    width: 53%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-btn button{
+    padding: 10px 15px;
+    background-color: #ffff;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.footer-btn button i{
+    display: inline-block;
+}
+
+
+footer section div{
+    width: 30%;
+}
+
+footer section div h6{
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: -.015em;
+}
+
+footer section div p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #bfbfbf;
+    fill: #bfbfbf;
+    font-weight: inherit;
+}
