@@ -1,0 +1,67 @@
+.tables{
+   border: solid 1px black; 
+   width: 50%;
+   margin: auto;
+}
+
+.tables thead tr th{
+    border: solid 1px black;
+    text-transform: uppercase;
+}
+
+.tables tbody tr td{
+    border: solid 1px black;
+    transition: 1s;
+    text-transform: uppercase;
+}
+.tables tbody tr{
+    transition: 1s;
+}
+.tables tbody tr:hover{
+    background-color: aqua;
+    
+}
+
+.tables tbody tr td:hover{
+    background-color: red;
+}
+
+.forms{
+    width: 50%;
+    margin: 50px auto auto auto;
+
+}
+
+.forms label{
+    display: block;
+}
+
+.forms input{
+    width: 100%;
+    padding: 10px;
+}
+.forms div{
+    width: 50px;
+    margin: auto;
+}
+.forms div button{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    margin: 10px;
+    transition: 1s;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.forms div button:hover{
+    background-color: #000000;
+    color: aqua;
+}
+
+.hello::before{
+    content: " arjun";
+    color: red !important;
+}
